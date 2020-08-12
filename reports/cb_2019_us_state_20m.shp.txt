@@ -1,0 +1,40 @@
+file name: cb_2019_us_state_20m.shp
+file size: 224036 bytes
+
+keys: 
+Index(['STATEFP', 'STATENS', 'AFFGEOID', 'GEOID', 'STUSPS', 'NAME', 'LSAD',
+       'ALAND', 'AWATER', 'geometry'],
+      dtype='object')
+
+columns: 
+Index(['STATEFP', 'STATENS', 'AFFGEOID', 'GEOID', 'STUSPS', 'NAME', 'LSAD',
+       'ALAND', 'AWATER', 'geometry'],
+      dtype='object')
+
+head: 
+  STATEFP  ...                                           geometry
+0      53  ...  MULTIPOLYGON (((-123.23715 48.68347, -123.0704...
+1      72  ...  MULTIPOLYGON (((-65.34207 18.34529, -65.25593 ...
+2      46  ...  POLYGON ((-104.05770 44.99743, -104.03914 44.9...
+
+[3 rows x 10 columns]
+
+length: 
+52
+
+shape: 
+(52, 10)
+
+memory usage in bytes: 
+Index       128
+STATEFP     416
+STATENS     416
+AFFGEOID    416
+GEOID       416
+STUSPS      416
+NAME        416
+LSAD        416
+ALAND       416
+AWATER      416
+geometry    416
+dtype: int64
